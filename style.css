@@ -1,5 +1,6 @@
 p {
-
+  color: #d3d3d3;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -11,11 +12,23 @@ h2 {
 }
 
 body {
- background-color: #76B26D; 
+ background-color: #76B26D;
 }
 
 #container {
   width: 95%;
   background-color:#ffffff;
   margin: 0 auto;
+}
+
+#nav {
+  padding: 0;
+}
+
+#nav li {
+  list-style-type: none;
+  float: left;
+  margin: 10;
+  padding: 0;
+  width: 25%;
 }
