@@ -1,6 +1,9 @@
 p {
   color: #d3d3d3;
   font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 0.8em;
+  align-self: auto;
 }
 
 h1 {
