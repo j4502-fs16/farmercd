@@ -1,13 +1,13 @@
 p {
   color: #d3d3d3;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   font-weight: normal;
   font-size: 0.8em;
   align-self: auto;
 }
 
 h1 {
- font-family: "Roboto", sans-serif;
+ font-family: "Roboto", Helvetica, sans-serif;
  font-size: 2.5em;
 }
 
