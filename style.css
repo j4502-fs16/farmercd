@@ -1,5 +1,5 @@
 p {
-  color: #000000;
+  color: white;
   font-family: "Raleway", Helvetica, sans-serif;
   font-weight: normal;
   font-size: 0.8em;
@@ -11,13 +11,12 @@ header {
  font-size: 2.5em;
 }
 
-h2 {
- font-family: "PT Serif", Georgia, serif;
- font-size: 1.5em;
-}
-
 body {
  background-color: #b0ccb8;
+}
+
+footer {
+  color: white;
 }
 
 #container {
@@ -27,32 +26,20 @@ body {
 }
 
 .navigation {
-  padding: 0;
-}
-
-.navigation li {
-  list-style-type: none;
-  float: left;
+  list-style: none;
   margin: 0;
+  background: gray;
   padding: 0;
-  width: 20%;
   display: flex;
   flex-flow: column;
 }
 
-.navigation a:link, a:visited {
-  display: block;
-  color: #ffffff;
-  background-color: #e7a6ff;
-  font-weight: bold;
-  text-align: center;
+/* Links w/i nav get this treatment */
+.navigation a{
   text-decoration: none;
-  padding: 4px;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-.navigation a:hover, a:active {
-  background-color: #864acc;
+  display: block;
+  padding: 10px;
+  color: white;
 }
 
 @media (min-width:800px){
@@ -69,15 +56,15 @@ body {
 }
 
 .header {
-  background: tomato;
+  background: lightgray;
 }
 
 .footer {
-  background: salmon;
+  background: black;
 }
 
 .main {
-  background: palevioletred;
+  background: lightcoral;
   text-align: left;
 }
 
@@ -128,10 +115,12 @@ img{
   .main{
     display: flex;
     flex-flow: row;
+    text-align: center;
   }
   img{
-    width: 50%;
-    height: 150px;
+    width: 100%;
+    height: 100%;
     margin-right: 10px;
+
   }
 }
