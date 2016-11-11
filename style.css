@@ -9,6 +9,10 @@ p {
 header {
  font-family: "David Libre", Georgia, serif;
  font-size: 2.5em;
+ display: flex;
+ flex-flow: row;
+ margin: 0;
+ padding: 0 10px;
 }
 
 body {
@@ -17,6 +21,7 @@ body {
 
 footer {
   color: white;
+  display: block;
 }
 
 #container {
@@ -28,10 +33,17 @@ footer {
 .navigation {
   list-style: none;
   margin: 0;
-  background: gray;
+  background: lightgray;
   padding: 0;
   display: flex;
   flex-flow: column;
+}
+
+nav a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 20px 30px;
 }
 
 /* Links w/i nav get this treatment */
@@ -88,9 +100,7 @@ footer {
   .navigation a:hover{
     background: black;
   }
-  .first{
-    margin-right: auto;
-  }
+
 }
 
 .header {
@@ -131,6 +141,23 @@ img{
   border-style: none;
 }
 
+@media screen and (min-width: 700px){
+  nav ul {
+    display: flex;
+  }
+  nav ul li {
+    border-top: none;
+  }
+  .menu-trigger{
+    display: none;
+  }
+  header {
+    order: 1;
+  }
+  nav {
+    order: 2
+  }
+}
 
 @media (min-width:800px){
   .aside{
